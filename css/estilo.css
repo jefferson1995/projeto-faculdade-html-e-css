@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0px;
+}
+nav{
+    background-color: brown;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+nav .logo{
+    float: left;
+    display: block;
+}
+nav a{
+    float: right;
+    display: block;
+    text-decoration: none;
+    padding: 25px 25px;
+    color: white;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color: gray;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+    background-color: black;
+    color: white;
+}
+.img, .textlogo{
+    font-size: 28px;
+    width: 40%;
+
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color:gray;
+}
+.logo, .texto1{
+    margin: 30px;
+    font-size: 28px;
+    width: 40%;
+    color: white;
+}
+.section2{
+    width: auto;
+    height: 150px;
+    background-color: black;
+}
+.texto2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 500px;
+    background-color: gray;
+}
+.texto3, .form{
+    margin: 30px;
+    font-size: 28px;
+    width: 40%;
+    font-size: 28px;
+    color: white;
+}
+.section4{
+    color: white;
+    padding: 200px;
+    background-color: black;
+}
+fieldset{
+    border: 0;
+}
+input, textarea, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+}
+.campo input[type="text"], .campo input[type="email"]{
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px;
+    color: white;
+}
+.campo textarea{
+    display: block;
+}
+.campo input:focus, .campo textarea:focus{
+    background-color: gray;
+}
+.botao{
+    font-size: 3.5em;
+    border: 0;
+    margin-bottom: 1em;
+
+}
+.grupo, .campo{
+    margin: 5px;
+    align-items: center;
+}
+.formulario{
+    margin-left: 27%;
+}
+.cabecalho{
+    margin-left: 27%;
+}
+.footer{
+    padding: 50px;
+    background-color:gray
+}
